@@ -33,7 +33,7 @@ conda activate OmniGUI
 
 ## 3. Install dependencies
 
-Install the local `google-genai` package:
+Install the `google-genai` package:
 
 ```bash
 pip install google-genai
