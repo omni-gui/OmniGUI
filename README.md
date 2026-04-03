@@ -36,8 +36,7 @@ conda activate OmniGUI
 Install the local `google-genai` package:
 
 ```bash
-cd google-genai-master
-pip install -e .
+pip install google-genai
 ```
 
 Install `lmms_eval`:
