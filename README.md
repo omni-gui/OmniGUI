@@ -176,7 +176,7 @@ Task configs are located in [`lmms_eval/tasks/agentcpm_gui`](lmms_eval/tasks/age
 
 
 ## Citation
-Feel free to cite the following article if you find OmniGUIhelpful:
+Feel free to cite the following article if you find OmniGUI helpful:
 ```latex
 @misc{Felix26guiomni,
     title = {OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments},
