@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://omni-gui.github.io/">Project Page</a> |
+  <a href="https://github.com/omni-gui/OmniGUI/blob/main/docs/OmniGUI.pdf">Tech Report</a> |
   <a href="https://huggingface.co/datasets/XIAOCHENLIN00zz/OmniGUI">Hugging Face Dataset</a> |
   <a href="https://omni-gui.github.io/#leaderboard">Leaderboard</a> |
   <a href="https://github.com/omni-gui/OmniGUI">Code</a>
