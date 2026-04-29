@@ -32,28 +32,28 @@ The benchmark contains 709 expert-demonstrated episodes and 2,579 action steps a
 
 Overall results from the latest OmniGUI project-page leaderboard. `TM` = Type Match, `EM` = Exact Match, `SR` = Success Rate, and `GP` = Goal Progress.
 
-| Rank | Model | TM | EM | SR | GP |
-| --- | --- | ---: | ---: | ---: | ---: |
-| 1 | **Gemini 3.1 Pro** | **83.6** | **66.6** | **37.2** | **46.4** |
-| 2 | Gemini 3.0 Pro | 80.7 | 66.4 | 33.1 | 43.3 |
-| 3 | Gemini 3.0 Flash | 78.2 | 63.9 | 30.2 | 43.0 |
-| 4 | Gemini 2.5 Pro | 75.4 | 47.4 | 15.4 | 26.0 |
-| 5 | Gemini 2.5 Flash | 69.1 | 40.7 | 12.5 | 24.2 |
-| 6 | Qwen3-Omni | 62.1 | 33.4 | 5.2 | 17.2 |
-| 7 | VITA-1.5 | 40.0 | 13.7 | 1.1 | 2.2 |
-| 8 | MiniCPM-o-4.5 | 31.0 | 4.8 | 0.1 | 1.4 |
-| 9 | Baichuan-Omni-1.5 | 15.8 | 3.3 | 0.0 | 0.4 |
+| Rank | Model              |       TM |       EM |       SR |       GP |
+| ---- | ------------------ | -------: | -------: | -------: | -------: |
+| 1    | **Gemini 3.1 Pro** | **83.6** | **66.6** | **37.2** | **46.4** |
+| 2    | Gemini 3.0 Pro     |     80.7 |     66.4 |     33.1 |     43.3 |
+| 3    | Gemini 3.0 Flash   |     78.2 |     63.9 |     30.2 |     43.0 |
+| 4    | Gemini 2.5 Pro     |     75.4 |     47.4 |     15.4 |     26.0 |
+| 5    | Gemini 2.5 Flash   |     69.1 |     40.7 |     12.5 |     24.2 |
+| 6    | Qwen3-Omni         |     62.1 |     33.4 |      5.2 |     17.2 |
+| 7    | VITA-1.5           |     40.0 |     13.7 |      1.1 |      2.2 |
+| 8    | MiniCPM-o-4.5      |     31.0 |      4.8 |      0.1 |      1.4 |
+| 9    | Baichuan-Omni-1.5  |     15.8 |      3.3 |      0.0 |      0.4 |
 
 For the full dimension-wise breakdown, please visit the [project leaderboard](https://omni-gui.github.io/#leaderboard).
 
 ## Dataset Overview
 
-| Statistic | Value |
-| --- | --- |
-| Applications | 29 |
-| Languages | Chinese + English |
-| Episodes | 709 |
-| Action steps | 2,579 |
+| Statistic    | Value             |
+| ------------ | ----------------- |
+| Applications | 29                |
+| Languages    | Chinese + English |
+| Episodes     | 709               |
+| Action steps | 2,579             |
 
 <p align="center">
   <img src="assets/readme/dataset_overview.png" alt="OmniGUI dataset overview" width="92%" />
@@ -173,3 +173,16 @@ logs/<task_name>/
 - TTS instruction setting: `scripts/task_tts_*.sh` replace the original text instruction with TTS-generated audio.
 
 Task configs are located in [`lmms_eval/tasks/agentcpm_gui`](lmms_eval/tasks/agentcpm_gui).
+
+
+## Citation
+Feel free to cite the following article if you find OmniGUIhelpful:
+```latex
+@misc{Felix26guiomni,
+    title = {OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments},
+    url = {https://github.com/omni-gui/OmniGUI/},
+    author = {Felix Henry, Xiaochen Lin, Jiangyou Zhu, Yangfan, Bingqian Zhang, Min Chen, and Shiyu Huang},
+    month = {March},
+    year = {2026}
+}
+```
