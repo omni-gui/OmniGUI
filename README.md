@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://omni-gui.github.io/">Project Page</a> |
-  <a href="https://github.com/omni-gui/OmniGUI/blob/main/docs/OmniGUI.pdf">Tech Report</a> |
+  <a href="https://arxiv.org/abs/2605.18758">Tech Report</a> |
   <a href="https://huggingface.co/datasets/OmniGUI/OmniGUI">Hugging Face Dataset</a> |
   <a href="https://omni-gui.github.io/#leaderboard">Leaderboard</a> |
   <a href="https://github.com/omni-gui/OmniGUI">Code</a>
@@ -178,11 +178,13 @@ Task configs are located in [`lmms_eval/tasks/agentcpm_gui`](lmms_eval/tasks/age
 ## Citation
 Feel free to cite the following article if you find OmniGUI helpful:
 ```latex
-@misc{Felix26guiomni,
-    title = {OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments},
-    url = {https://github.com/omni-gui/OmniGUI/},
-    author = {Felix Henry, Xiaochen Lin, Jiangyou Zhu, Yangfan, Bingqian Zhang, Min Chen, and Shiyu Huang},
-    month = {March},
-    year = {2026}
+@misc{henry2026omniguibenchmarkingguiagents,
+      title={OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments}, 
+      author={Felix Henry and Xiaochen Lin and Jiangyou Zhu and Yangfan and Bingqian Zhang and Min Chen and Shiyu Huang},
+      year={2026},
+      eprint={2605.18758},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2605.18758}, 
 }
 ```
