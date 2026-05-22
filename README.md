@@ -18,31 +18,31 @@
 
 OmniGUI is a step-level GUI agent benchmark designed for omni-modal smartphone interaction. At each action step, the agent receives interleaved multimodal observations, including static screenshots, synchronous audio cues, short video clips, and action history, and must predict the next GUI action such as `TAP` or `TYPE`.
 
-The benchmark contains 709 expert-demonstrated episodes and 2,579 action steps across 29 real smartphone applications in both Chinese and English. OmniGUI evaluates five core capabilities of GUI agents: Localization, Semantic Understanding, Cross-modal Discrimination, Temporal Reasoning, and Instant Response.
+The benchmark contains 708 expert-demonstrated episodes and 2,572 action steps across 29 real smartphone applications in both Chinese and English. OmniGUI evaluates five core capabilities of GUI agents: Localization, Semantic Understanding, Cross-modal Discrimination, Temporal Reasoning, and Instant Response.
 
 ## Highlights
 
 - Step-level evaluation with multimodal observations at every action step instead of screenshot-only evaluation.
 - Omni-modal smartphone setting with image, audio, video, and action history.
-- 709 episodes and 2,579 action steps covering 29 applications across Chinese and English ecosystems.
+- 708 episodes and 2,572 action steps covering 29 applications across Chinese and English ecosystems.
 - Five task dimensions: Localization, Semantic Understanding, Cross-modal Discrimination, Temporal Reasoning, and Instant Response.
 - Explicit modality dependency annotations, including AV-Critical, AV-Supportive, and AV-Present settings.
 
 ## Leaderboard
 
-Overall results from the latest OmniGUI project-page leaderboard. `TM` = Type Match, `EM` = Exact Match, `SR` = Success Rate, and `GP` = Goal Progress.
+Overall results after filtering invalid samples from the benchmark. `TM` = Type Match, `EM` = Exact Match, `SR` = Success Rate, and `GP` = Goal Progress.
 
-| Rank | Model              |       TM |       EM |       SR |       GP |
-| ---- | ------------------ | -------: | -------: | -------: | -------: |
-| 1    | **Gemini 3.1 Pro** | **83.6** | **66.6** | **37.2** | **46.4** |
-| 2    | Gemini 3.0 Pro     |     80.7 |     66.4 |     33.1 |     43.3 |
-| 3    | Gemini 3.0 Flash   |     78.2 |     63.9 |     30.2 |     43.0 |
-| 4    | Gemini 2.5 Pro     |     75.4 |     47.4 |     15.4 |     26.0 |
-| 5    | Gemini 2.5 Flash   |     69.1 |     40.7 |     12.5 |     24.2 |
-| 6    | Qwen3-Omni         |     62.1 |     33.4 |      5.2 |     17.2 |
-| 7    | VITA-1.5           |     40.0 |     13.7 |      1.1 |      2.2 |
-| 8    | MiniCPM-o-4.5      |     31.0 |      4.8 |      0.1 |      1.4 |
-| 9    | Baichuan-Omni-1.5  |     15.8 |      3.3 |      0.0 |      0.4 |
+| Rank | Model             |       TM |       EM |       SR |       GP |
+| ---- | ----------------- | -------: | -------: | -------: | -------: |
+| 1    | Gemini 3.1 Pro    |     83.3 |     65.4 |     36.7 |     46.1 |
+| 2    | Gemini 3.0 Pro    |     80.0 |     63.7 |     33.5 |     43.6 |
+| 3    | Gemini 3.0 Flash  |     78.4 |     61.4 |     30.4 |     43.5 |
+| 4    | Gemini 2.5 Pro    |     75.7 |     44.1 |     15.7 |     26.3 |
+| 5    | Gemini 2.5 Flash  |     69.7 |     37.8 |     12.6 |     24.6 |
+| 6    | Qwen3-Omni        |     63.2 |     32.4 |      5.2 |     17.5 |
+| 7    | VITA-1.5          |     39.4 |     12.1 |      1.1 |      2.2 |
+| 8    | MiniCPM-o-4.5     |     32.9 |      4.9 |      0.3 |      1.5 |
+| 9    | Baichuan-Omni-1.5 |     17.0 |      3.3 |      0.0 |      0.4 |
 
 For the full dimension-wise breakdown, please visit the [project leaderboard](https://omni-gui.github.io/#leaderboard).
 
@@ -52,8 +52,8 @@ For the full dimension-wise breakdown, please visit the [project leaderboard](ht
 | ------------ | ----------------- |
 | Applications | 29                |
 | Languages    | Chinese + English |
-| Episodes     | 709               |
-| Action steps | 2,579             |
+| Episodes     | 708               |
+| Action steps | 2,572             |
 
 <p align="center">
   <img src="assets/readme/dataset_overview.png" alt="OmniGUI dataset overview" width="92%" />
