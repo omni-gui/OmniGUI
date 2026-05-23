@@ -178,13 +178,10 @@ Task configs are located in [`lmms_eval/tasks/agentcpm_gui`](lmms_eval/tasks/age
 ## Citation
 Feel free to cite the following article if you find OmniGUI helpful:
 ```latex
-@misc{henry2026omniguibenchmarkingguiagents,
-      title={OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments}, 
-      author={Felix Henry and Xiaochen Lin and Jiangyou Zhu and Yangfan and Bingqian Zhang and Min Chen and Shiyu Huang},
-      year={2026},
-      eprint={2605.18758},
-      archivePrefix={arXiv},
-      primaryClass={cs.HC},
-      url={https://arxiv.org/abs/2605.18758}, 
+@article{henry2026omnigui,
+  title={OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments},
+  author={Henry, Felix and Lin, Xiaochen and Zhu, Jiangyou and Zhang, Bingqian and Chen, Min and Huang, Shiyu and others},
+  journal={arXiv preprint arXiv:2605.18758},
+  year={2026}
 }
 ```
